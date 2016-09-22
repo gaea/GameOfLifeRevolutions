@@ -1,0 +1,6 @@
+#! /bin/bash
+export CLASSPATH=.:../j3d/lib/ext/j3dcore.jar:../j3d/lib/ext/j3dutils.jar:../j3d/lib/ext/vecmath.jar:../j3d/lib/ext/ncsa.jar
+export LD_LIBRARY_PATH=../j3d/lib/amd64
+echo $LD_LIBRARY_PATH
+cd bin
+java GameOfLifeRevolutionsGUI

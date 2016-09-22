@@ -1,0 +1,2 @@
+#! /bin/bash
+javac -d bin -cp j3d/lib/ext/vecmath.jar:j3d/lib/ext/j3dcore.jar:j3d/lib/ext/j3dutils.jar:j3d/lib/ext/ncsa.jar src/*.java
